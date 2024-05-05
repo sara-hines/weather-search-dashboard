@@ -63,10 +63,18 @@
             role="region"
             aria-live="polite"
           ></section>
+          <section
+            id="activities"
+            class="row mt-3"
+            role="region"
+            aria-live="polite"
+          ><div id="photo-container" style="width:100px; height:100px"></div></section>
+          <div id="map" style="width:100px; height:100px"></div>
         </div>
       </div>
     </div>
 
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <!-- use day.js to easily format dates -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.4/dayjs.min.js"
@@ -84,5 +92,8 @@
       crossorigin="anonymous"
     ></script>
     <script src="/weather-search-dashboard/Develop/js/script.js"></script>
+    <!-- The Places service is a self-contained library, separate from the main Maps JavaScript API code. To use the functionality contained within this library, you must first load it using the libraries parameter in the Maps API bootstrap URL. I took out &callback=initMap from the end of the url.-->
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAnRJPWqLsr6P88YED5jKTg4Vznkw1qX8Y&loading=async&libraries=places"></script>
+    <script async src="https://maps.googleapis.com/maps/api/place/details/json?key=AIzaSyAnRJPWqLsr6P88YED5jKTg4Vznkw1qX8Y"></script>
   </body>
 </html>
