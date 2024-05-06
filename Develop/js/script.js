@@ -186,8 +186,6 @@ function renderForecast(dailyForecast) {
 function renderItems(city, data) {
   renderCurrentWeather(city, data.list[0], data.city.timezone);
   renderForecast(data.list);
-  console.log(data.list);
-  // renderActivities()
 }
 
 
@@ -196,9 +194,6 @@ function renderItems(city, data) {
 function fetchWeather(location) {
   var { lon } = location;
   var { lat } = location;
-  console.log(location);
-  console.log(lon);
-  console.log(lat);
   var city = location.name;
 
   var apiUrl = `${weatherApiRootUrl}/data/2.5/forecast?lat=${lat}&lon=${lon}&units=imperial&appid=${weatherApiKey}`;
@@ -246,7 +241,6 @@ function handleSearchFormSubmit(e) {
 
   e.preventDefault();
   var search = searchInput.value.trim();
-  console.log(search);
   // The search variable is the text the user entered in the input element for the city. 
   fetchCoords(search);
   searchInput.value = '';
