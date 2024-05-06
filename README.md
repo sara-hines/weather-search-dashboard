@@ -3,19 +3,19 @@
 
 <div align="center">
     <!-- PROJECT SHIELDS -->
-    <a href="https://github.com/sara-hines/weather-search-dashboard/graphs/contributors" style="text-decoration: none;">
+    <a href="https://github.com/sara-hines/weather-search-dashboard/graphs/contributors" >
         <img src="https://img.shields.io/github/contributors/sara-hines/weather-search-dashboard.svg?style=for-the-badge" alt="Contributors" />
     </a>
-    <a href="https://github.com/sara-hines/weather-search-dashboard/network/members" style="text-decoration: none;">
+    <a href="https://github.com/sara-hines/weather-search-dashboard/network/members" >
         <img src="https://img.shields.io/github/forks/sara-hines/weather-search-dashboard.svg?style=for-the-badge" alt="Forks" />
     </a>
-    <a href="https://github.com/sara-hines/weather-search-dashboard/stargazers" style="text-decoration: none;">
+    <a href="https://github.com/sara-hines/weather-search-dashboard/stargazers" >
         <img src="https://img.shields.io/github/stars/sara-hines/weather-search-dashboard.svg?style=for-the-badge" alt="Stargazers" />
     </a>
-    <a href="https://github.com/sara-hines/weather-search-dashboard/issues" style="text-decoration: none;">
+    <a href="https://github.com/sara-hines/weather-search-dashboard/issues" >
         <img src="https://img.shields.io/github/issues/sara-hines/weather-search-dashboard.svg?style=for-the-badge" alt="Issues" />
     </a>
-    <a href="https://github.com/sara-hines/weather-search-dashboard/blob/master/LICENSE.txt" style="text-decoration: none;">
+    <a href="https://github.com/sara-hines/weather-search-dashboard/blob/master/LICENSE.txt">
         <img src="https://img.shields.io/github/license/sara-hines/weather-search-dashboard.svg?style=for-the-badge" alt="MIT License" />
     </a>
 </div>
