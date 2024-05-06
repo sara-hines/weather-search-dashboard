@@ -108,17 +108,32 @@ When the user first opens the page, no weather or city data will initially be di
 
 The below screenshot shows the results of a search for San Diego, including a weather icon, temperature, wind, and humidity for each day.
 
+<br />
+
 ![san diego weather](./Assets/img/san-diego-weather.png)
+___
+
+<br />
 
 After searching for a city, a button displaying the city's name is rendered below the search tool, and the city name is stored in Local Storage in the browser. The user can click the button for a previously-searched city to retrieve the current weather and forecast for that city once again. 
 
 The below image shows the page's appearance after searching for weather conditions in San Diego, Barcelona, New York, Nairobi, and Panama City. Each of the cities appear in an orderly, interactive search history below the search tool. 
 
+<br />
+
 ![search history added](./Assets/img/search-history-added.png)
+___
+
+<br />
 
 In the below screenshot, the button in the search history for Barcelona was clicked, retrieving current and future weather conditions for Barcelona once again. 
 
+<br />
+
 ![retrieve barcelona using search history](./Assets/img/retrieve-barcelona.png)
+___
+
+<br />
 
 The user's search history will persist in local storage even if the user closes the browser and returns later. This helps to maintain a personalized user experience and adds to the app's usefulness in personal organization and travel planning. 
 
@@ -179,7 +194,7 @@ This README was made from a modified template created by [@othneildrew](https://
 
 [OpenWeather]: https://img.shields.io/badge/OpenWeather-orange?style=for-the-badge&logo=openweathermap&logoColor=white
 [OpenWeather-url]: https://openweathermap.org/api
-[Day.js]: https://img.shields.io/badge/Day.js-FF5F4C.svg?style=for-the-badge&logo=day.js&logoColor=blue&color=white
+[Day.js]: https://img.shields.io/badge/Day.js-FF5F4C.svg?style=for-the-badge&logo=day.js&logoColor=white
 [DayJs-url]: https://day.js.org/
 [Node.js]: https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white
 [Node-url]: https://nodejs.org
