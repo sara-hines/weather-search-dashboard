@@ -55,7 +55,6 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
@@ -94,24 +93,9 @@ This Weather Search Dashboard is a web application that allows travelers to chec
 <!-- GETTING STARTED -->
 ## Getting Started
 
-### Prerequisites
-
-This application's main purpose is to fetch, display, and persist data from a quality, open-source API; it does not use a server or require any major installation. The recommended way to view the application in the browser is by opening the index.html with VSCode's [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer). 
-
 ### Installation
 
-This application has a very straightforward setup process:
-
-1. Clone the repo:
-    ```sh
-    git clone https://github.com/sara-hines/weather-search-dashboard.git
-    ```
-2. Navigate to the project directory:
-    ```
-    cd weather-search-dashboard
-    ```
-3. Right click the index.html, and choose "Open with Live Server."
-
+This application's main purpose is to fetch, display, and persist weather data from a quality, open-source API; it does not require any installation, dependencies, or prerequisites. Simply navigate to the web page at https://sara-hines.github.io/weather-search-dashboard! 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -203,5 +187,3 @@ This README was made from a modified template created by [@othneildrew](https://
 [Javascript-url]: https://ecma-international.org/publications-and-standards/standards/ecma-262/
 [Visualstudio.com]: https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white
 [VSCode-url]: https://code.visualstudio.com/
-
-
